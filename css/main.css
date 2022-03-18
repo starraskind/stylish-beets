@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: #3f1622;
+  font-size: 1.5rem;
+}
+
+header ol {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: #8f2440;
+  font-size: 1.25rem;
+  list-style-type: none;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: .8rem;
+  color: #222;
+  text-align: center;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  color: #222;
+}
+
+footer {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  color: #222;
+}
+
+figure + p {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 + ol {
+  list-style-type: lower-greek;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+wip
